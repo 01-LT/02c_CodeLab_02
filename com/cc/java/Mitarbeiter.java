@@ -7,16 +7,12 @@ public class Mitarbeiter {
     private String role;
     private int yearOfEntry;
 
-    
-    
 public Mitarbeiter(String familyName, String firstName, String role, int yearOfEntry) {
         this.familyName = familyName;
         this.firstName = firstName;
         this.role = role;
         this.yearOfEntry = yearOfEntry;
     }
-
-
 
 public String getProperties (String op) {
     switch (op) {
